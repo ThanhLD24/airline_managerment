@@ -1,0 +1,613 @@
+/* CSS Document */
+.box-OutBound .OutBound {
+	background: #05529b url(/Images/Newversion/BgChieu_06.jpg) repeat-x;
+	color: #fff;
+	padding: 10px;
+	float: left;
+	min-width: 450px;
+	font-weight: bold;
+	text-shadow: 1px 1px #054b8d;
+	border-radius: 5px 5px 0px 0px;
+	margin-top: 10px
+}
+
+.box-OutBound .OutBound h3 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 25px
+}
+
+.box-OutBound .OutBound h3 span {
+	font-size: 22px;
+}
+
+.box-OutBound .OutBound p {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.huongdan {
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px
+}
+
+.box-InBound .InBound {
+	background: #c4dc7b url(/Images/Newversion/chieuve_26.jpg) repeat-x;
+	color: #143a83;
+	padding: 10px;
+	float: left;
+	min-width: 450px;
+	font-weight: bold;
+	text-shadow: 1px 1px #d5e79c;
+	border-radius: 5px 5px 0px 0px;
+	margin-top: 10px;
+	border: solid 1px #cae183;
+}
+
+.box-InBound .InBound h3 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 25px
+}
+
+.box-InBound .InBound h3 span {
+	font-size: 22px;
+}
+
+.box-InBound .InBound p {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.box-OutBound .content {
+	border: solid 1px #b5d9fb;
+	margin-bottom: 10px
+}
+
+.box-InBound .content {
+	border: solid 1px #d8dfc1;
+	margin-bottom: 10px
+}
+/*.box-OutBound .content .mainKq tr.result-item{border-bottom: solid 1px #b5d9fb;}
+.box-InBound .content .mainKq tr.result-item{border-bottom: solid 1px #d8dfc1;}*/
+.boloc {
+	margin: 10px 0;
+	border-radius: 5px;
+	background: #f0f0f0 url(/Images/Newversion/bgBoloc_11.jpg) repeat-x;
+	border: solid 1px #d9d9d9;
+	padding: 10px;
+}
+
+.box-OutBound .boloc, .box-InBound .boloc {
+	margin: 10px;
+}
+
+.boloc span.header {
+	font-weight: bold;
+	color: #143a83;
+	font-size: 13px;
+	line-height: 18px
+}
+
+.boloc select {
+	border: solid 1px #d9d9d9;
+	height: 25px;
+	line-height: 25px;
+	color: #333;
+	width: 160px
+}
+
+.boloc select option {
+	line-height: 25px;
+}
+
+.tgKh {
+	border: solid 1px #d9d9d9;
+	border-radius: 5px;
+}
+
+.thungay {
+	background: url(/Images/Newversion/bgTableKetqua_21.jpg) repeat-x;
+	border-top: solid 1px #b5d4f1;
+}
+
+.thungay th {
+	font-size: 12px;
+	color: #333;
+	font-weight: normal;
+	height: 35px;
+	line-height: 35px;
+	border-right: solid 1px #d4e1ee;
+	cursor: pointer;
+}
+
+.thungay th.active {
+	background: #fff;
+	font-weight: bold
+}
+
+.mainKq .class-alternating-item {
+	background: #f2f8fe;
+}
+
+.mainKq td {
+	padding: 3px 0px
+}
+
+.mainKq td img {
+	margin-left: 10px
+}
+
+.mainKq td.sohieu {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 30px
+}
+
+.mainKq td.gio {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.mainKq td.gia {
+	font-size: 18px;
+	font-weight: bold;
+	color: #e1770d;
+	width: 180px;
+}
+
+.mainKq td.gia span {
+	text-align: right;
+	padding-right: 30px;
+	display: block;
+}
+
+.mainKq td a.collape {
+	background: url(/Images/Newversion/collaspe.png) no-repeat top right;
+	padding: 2px 22px 0 0;
+	text-decoration: none;
+	line-height: 20px;
+	font-size: 12px;
+	color: #333;
+}
+
+.mainKq td a.collape:hover {
+	text-decoration: underline;
+}
+
+.tieptuc {
+	width: 128px;
+	height: 44px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: url(/Images/Newversion/bgMenu_header_05.jpg) repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	float: right;
+}
+
+.thongtinLoading {
+	border: solid 1px #c9e1f7;
+	margin-top: 15px;
+	padding: 10px;
+	margin-bottom: 3px;
+	border-radius: 5px 5px 0px 0px;
+	background: #f4faff
+}
+
+.thongtinLoading img {
+	width: 90px;
+	margin-right: 15px;
+	float: left
+}
+
+.thongtinLoading .thongtinText {
+	float: left;
+	width: 500px
+}
+
+.thongtinLoading .thongtinText h2 {
+	font-size: 20px;
+	color: #143a83;
+	line-height: 35px;
+	font-weight: bold
+}
+
+.thongtinLoading .thongtinText h2 span {
+	font-size: 19px;
+	color: #333;
+}
+
+.thongtinLoading .thongtinText td {
+	font-size: 12px;
+	color: #333;
+}
+
+.thongtinLoading .thongtinText td b {
+	font-weight: bold
+}
+
+.loading {
+	text-align: center;
+	padding: 20px 0px
+}
+
+.loading p.textBlue {
+	color: #143a83;
+	line-height: 18px;
+	font-weight: bold;
+	margin-bottom: 10px
+}
+
+.loading p.textBlack {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	line-height: 20px
+}
+
+.ketquaQT {
+	margin: 20px 0;
+	border: solid 1px #d9d9d9;
+}
+
+.TblKetquaQt {
+	
+}
+
+.tblKetquaQTLastbor {
+	border-bottom: none;
+}
+
+.ketquaQT .in-InBound {
+	border-top: dashed 2px #d9d9d9;
+}
+
+.TblKetquaQt td {
+	padding: 3px 10px;
+	font-size: 12px
+}
+
+.TblKetquaQt td b {
+	font-weight: bold
+}
+
+.TblKetquaQt td span.chang {
+	font-size: 14px;
+	font-weight: bold
+}
+
+.TblKetquaQt td span.gio {
+	font-size: 16px;
+	color: #143a83;
+	font-weight: bold
+}
+
+.TblKetquaQt td span.gia {
+	font-size: 18px;
+	font-weight: bold;
+	color: #f26406;
+}
+
+.TblKetquaQt td a.collape {
+	background: url(/Images/Newversion/collaspe.png) no-repeat top right;
+	padding: 2px 22px 1px 0px;
+	text-decoration: none;
+	line-height: 20px;
+	font-size: 12px;
+	color: #143a83;
+	font-weight: bold;
+}
+
+.TblKetquaQt td a.collape:hover {
+	text-decoration: underline;
+}
+
+.TblKetquaQt tr.ctct td {
+	height: 32px;
+	line-height: 32px
+}
+
+.TblKetquaQt tr.ctct td b, .TblKetquaQt tr.ctct tds span {
+	height: 32px;
+	line-height: 32px
+}
+
+.outlapes {
+	background: #fff;
+	border-bottom: dashed 1px #d9d9d9;
+}
+
+.outlapes  td {
+	font-size: 12px;
+	line-height: 28px
+}
+
+.outlapes  td b {
+	font-weight: bold
+}
+
+.outlapes  td b.tonggia {
+	color: #d51317
+}
+
+.outlapes td p.transfer {
+	background: #fef4eb;
+	border: solid 1px #fcdabf;
+	line-height: 28px;
+	border-right: none;
+	border-left: none;
+	margin: 0px -5px
+}
+
+.ou2 {
+	background: #f5f5f5;
+	border-bottom: none;
+}
+
+.ou2  td {
+	line-height: 20px
+}
+
+.line {
+	height: 1px;
+	border-bottom: dotted 1px #dedddd
+}
+
+.line3 {
+	height: 2px;
+	border-bottom: dashed 2px #d9d9d9
+}
+
+.titBox {
+	background: url(/Images/Newversion/BgChieu_06.jpg) repeat-x;
+	display: inline-block;
+	padding: 5px 25px;
+	line-height: 25px;
+	color: #fff;
+	border-radius: 5px 5px 0px 0px;
+	font-weight: bold;
+	margin-top: 15px
+}
+
+.boxThongtinHK {
+	border: solid 1px #d9d9d9;
+	padding: 10px 15px;
+}
+
+.tieptucQT {
+	background: url(/Images/Newversion/BtnBg.jpg) bottom;
+	margin-bottom: 5px;
+	text-shadow: 1px 1px #fd971f;
+	line-height: 35px;
+	height: 35px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	border: solid 1px #fd971f;
+	border-radius: 5px
+}
+
+.filter-by-time {
+	margin-top: 5px;
+	width: 230px;
+}
+
+.filter-by-time .slider {
+	height: 6px;
+}
+
+.filter-by-time a.ui-slider-handle {
+	height: 11px;
+	width: 11px;
+	top: -4px;
+}
+
+.filter-by-time .rule span {
+	font-size: 12px;
+	color: #333;
+}
+
+.filter-by-time .rule span {
+	float: left;
+	width: 14%;
+	font-size: 11px;
+	color: #666;
+}
+
+.filter-by-time .rule span.h-6 {
+	width: 21%;
+}
+
+.filter-by-time .rule span.last {
+	text-align: right;
+}
+
+.filter-by-time .ui-widget-content {
+	background: #FEF4EB;
+}
+
+.filter-by-time .ui-slider-range {
+	background: #ff7b0f;
+}
+
+.noidia {
+	margin: 0 5px 0 10px;
+	color: #333;
+}
+
+.noidia .outlapes {
+	background: #f2f2f2
+}
+
+.noidia td {
+	font-size: 12px;
+}
+
+.noidia td b {
+	font-weight: bold
+}
+
+.noidia td h5 {
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold
+}
+
+.r-price-breakdown .outlapes {
+	border-bottom: none;
+}
+
+.MainContent {
+	border-right: none !important;
+	width: 670px;
+	padding-right: 0;
+}
+
+.hetcho {
+	padding: 15px
+}
+
+.hetcho h5 {
+	color: #d51317;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.hetcho h6 {
+	font-size: 14px;
+	color: #143a83;
+	line-height: 22px;
+	font-weight: bold
+}
+
+.hetcho p {
+	font-size: 12px;
+	margin-top: 5px
+}
+
+.boxGuiycDatve {
+	border: solid 1px #d9d9d9;
+	padding: 10px;
+	margin: 10px 0px;
+	color: #333
+}
+
+.boxGuiycDatve p {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px
+}
+
+.boxGuiycDatve td {
+	padding: 3px 0;
+	font-size: 12px
+}
+
+.boxGuiycDatve td b {
+	font-weight: bold
+}
+
+.boxGuiycDatve td input, textarea {
+	border: solid 1px #d9d9d9;
+	line-height: 25px
+}
+
+.boxGuiycDatve td input.ten_dt {
+	height: 25px;
+	line-height: 25px;
+	width: 200px
+}
+
+.boxGuiycDatve td .yc {
+	width: 450px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.boxGuiycDatve td .guiyc {
+	background: url(/Images/Newversion/httdv_09.jpg) bottom repeat-x;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 5px
+}
+
+.hetcho ul li a {
+	background: url(/Images/Newversion/rarrowIcon.png) no-repeat center left;
+	font-size: 12px;
+	color: #143a83;
+	text-decoration: none;
+	padding-left: 12px
+}
+
+.hetcho ul li a:hover {
+	text-decoration: underline
+}
+
+.hetcho .yc {
+	padding: 2px 5px;
+}
+
+.SumCount {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ff8e10;
+	line-height: 30px;
+	float: left
+}
+
+.SumCount span {
+	color: #333;
+}
+
+.PagingBox {
+	padding: 5px 10px;
+	background: #f9f9f9;
+	border: solid 1px #D9d9d9;
+}
+
+.Paging {
+	float: right;
+}
+
+.Paging li {
+	float: left;
+}
+
+.Paging li a {
+	background: #0656a2;
+	padding: 5px 12px;
+	display: block;
+	margin-right: 5px;
+	border: none;
+	line-height: 24px;
+	color: #fff;
+	text-decoration: none;
+	box-shadow: 1px 1px 0px #dcdcdc;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.Paging li a:hover {
+	background: #e7eff7;
+	color: #143a83
+}
+
+.Paging li a.current-page {
+	font-weight: bold;
+	color: #143a83;
+	background: #c4e1fc;
+}

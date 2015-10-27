@@ -1,0 +1,6 @@
+package airline.managerment.dao;
+
+public interface AirportDAO {
+    public String getAirportNameById(String str);
+    public String getAirportPositionById(String str);
+}
