@@ -1,0 +1,176 @@
+/* CSS Document */
+.SubSearch {
+	background: #ddedac;
+	border: solid 1px #cae183;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+	margin-top: 0;
+}
+
+.SubSearch h3 {
+	font-size: 19px;
+	color: #143a83;
+	text-transform: uppercase;
+	line-height: 40px;
+	border-bottom: dotted 1px #90c2c6;
+	font-weight: bold;
+	text-shadow: 1px 1px #edf5d2;
+}
+
+.SubSearch table {
+	margin: 10px 0px;
+}
+
+.SubSearch table td {
+	color: #333;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	text-shadow: 1px 1px #ecf5cf
+}
+
+.SubSearch table td input[type=text] {
+	border: solid 1px #cee38b;
+	border-radius: 5px;
+	margin: 5px 0px;
+	line-height: 25px;
+	height: 25px;
+	width: 94%;
+	padding: 0 3%;
+}
+
+.SubSearch table td .timverenhat_btn {
+	margin: 8px 0 5px;
+	line-height: 21px;
+}
+
+.SubSearch table td input.btnTimgia {
+	background: url(/Images/Newversion/BtnBg.jpg) repeat-x;
+	height: 40px;
+	line-height: 40px;
+	color: #654a05;
+	text-shadow: 1px 1px #fddd96;
+	width: 80%;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: solid 1px #ffa36b;
+	margin-top: 10px
+}
+
+.SubSearch select {
+	padding: 0 5px;
+	line-height: 25px;
+	height: 25px;
+	border: solid 1px #cee38b;
+	border-radius: 5px;
+	width: 60px;
+}
+
+.btnonSub {
+	margin: 10px 0px
+}
+
+.btnonSub .BookingWay {
+	background: url(/Images/Newversion/httdv_09.jpg) bottom repeat-x;
+	float: left;
+	width: 115px;
+	margin-right: 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #fff;
+	padding: 6px 6px 4px 6px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #ca780f;
+}
+
+.btnonSub .BookingWay:hover {
+	background: url(/Images/Newversion/httdv_09_hover.jpg) bottom repeat-x;
+}
+
+.btnonSub .BookingWay img {
+	float: left;
+	margin-right: 10px;
+	margin-left: 5px;
+	margin-top: 2px
+}
+
+.btnonSub .BookingWay span {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 35px
+}
+
+.btnonSub .Payment {
+	background: url(/Images/Newversion/httt_09.jpg) bottom repeat-x;
+	float: right;
+	width: 120px;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #fff;
+	padding: 6px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #6e8b16;
+}
+
+.btnonSub .Payment:hover {
+	background: url(/Images/Newversion/httt_09_hover.jpg) bottom repeat-x;
+}
+
+.btnonSub .Payment img {
+	float: left;
+	margin-right: 5px;
+}
+
+.btnonSub .Payment span {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 32px;
+	letter-spacing: -1px
+}
+
+.btnonSub .emailRegister {
+	background: url(/Images/Newversion/emailReg_09.jpg) repeat-x;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.emailRegister p {
+	background: url(/Images/Newversion/emailIcon.png) no-repeat center left;
+	padding-left: 28px;
+	font-size: 13px;
+	color: #fff;
+}
+
+.emailRegister  .EmailRegisterTextbox {
+	background: #edf4fa;
+	border: none;
+	border-radius: 5px;
+	margin: 15px 0px;
+	height: 28px;
+	line-height: 28px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%
+}
+
+.emailRegister .btnEmailRegister {
+	float: right;
+	background: #c4e1fc;
+	border: none;
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #143a83;
+	font-size: 14px;
+	padding: 5px;
+}
+
+.FbRight {
+	border: solid 1px #143a83;
+	margin: 15px 0px;
+	border-radius: 3px;
+}

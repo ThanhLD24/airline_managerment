@@ -1,0 +1,75 @@
+/**
+ * 
+ */
+package airline.managerment.dao;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import airline.managerment.model.Ticket;
+import airline.managerment.utility.HibernateUtils;
+
+/**
+ * @author Lê
+ *
+ */
+public class TicketDAOImpl implements TicketDAO {
+    /**
+     * khởi tạo session.
+     */
+    Session session = null;
+
+    /**
+     * khởi tạo transaction.
+     */
+    Transaction transaction = null;
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see
+     * airline.managerment.dao.TicketDAO#getTicketByCondition(java.lang.String,
+     * java.lang.String, java.lang.String, java.lang.String)
+     */
+    @Override
+    public List<Ticket> getTicketByCondition(String originAirport,
+            String destinationAirport, String originDate) {
+        // TODO Auto-generated method stub
+        session = HibernateUtils.getSessionFactory().openSession();
+        transaction = session.beginTransaction();
+        Query query = session
+                .createQuery("from Ticket where ticketOriginAirport = :ticketOriginAirport and ticketDestinationAirport= :ticketDestinationAirport and ticketOriginDate=:ticketOriginDate");
+        query.setParameter("ticketOriginAirport", originAirport);
+        query.setParameter("ticketDestinationAirport", destinationAirport);
+        query.setParameter("ticketOriginDate", originDate);
+        //query.setParameter("ticketDestinationDate", destinationDate);
+
+        List<Ticket> listTicket = query.list();
+        transaction.commit();
+        return listTicket;
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see airline.managerment.dao.TicketDAO#updateTicketInfo(int)
+     */
+    @Override
+    public boolean updateTicketInfo(int ticketId) {
+        // TODO Auto-generated method stub
+        return false;
+    }
+    public Ticket getTicketById(int ticketId){
+        Session session = HibernateUtils.getSessionFactory().openSession();
+        Transaction trans = session.beginTransaction();
+        Object obj = session.get(Ticket.class, ticketId);
+        trans.commit();
+        session.flush();
+        return (Ticket)obj;
+        
+    }
+
+}
